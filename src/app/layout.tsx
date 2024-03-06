@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import { ClerkProvider } from "@clerk/nextjs";
+import "@stream-io/video-react-sdk/dist/css/styles.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import ClientProvider from "./ClientProvider";
